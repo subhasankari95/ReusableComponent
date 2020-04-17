@@ -1,0 +1,43 @@
+{
+  "name": "testtextbox",
+  "version": "1.0.0",
+  "description": "to publish components as npm package",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhasankari95/ReusableComponent.git"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "react",
+    "components"
+  ],
+  "author": "subha sanakri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhasankari95/ReusableComponent/issues"
+  },
+  "homepage": "https://github.com/subhasankari95/ReusableComponent#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
